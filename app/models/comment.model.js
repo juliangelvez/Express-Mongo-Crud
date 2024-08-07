@@ -16,5 +16,3 @@ module.exports = mongoose => {
 
     const Comment = mongoose.model("comment", schema);
     return Comment;
-       
-    
