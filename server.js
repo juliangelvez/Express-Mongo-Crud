@@ -27,6 +27,7 @@ db.mongoose
 })
 .catch(err => {
     console.log('DB connection not succesfully');
+    process.exit();
 });
 
 app.get('/', (req, res) => {
